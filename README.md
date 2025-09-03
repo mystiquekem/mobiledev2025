@@ -1,6 +1,6 @@
 USTH ICT Android Development 2025
 ========================================
 
-* **Your ID**
-* **Your name**
-* **Your class**
+* **22BI13005**
+* **Nguyễn Thái An**
+* **Class 2**
