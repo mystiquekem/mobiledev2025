@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherFragment"
+    tools:ignore="HardcodedText"
+    android:background="#c8facd"
+    android:layout_margin="10dp">
+    <LinearLayout
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:orientation="vertical"
+        android:layout_alignParentStart="true">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:text="12℃"
+            android:paddingTop="10dp"
+            android:layout_gravity="start"
+            android:textSize="20sp"/>
+        <TextView
+            android:text="Cloudy"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/cloudy"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:text="Paris"
+        android:layout_alignParentEnd="true"
+        android:textSize="20sp"
+        android:paddingTop="10dp"
+        android:textAlignment="textEnd"/>
+</RelativeLayout>

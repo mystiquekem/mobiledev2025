@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/forecast_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:background="#bdd6fc">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables,UselessParent">
+        <TextView
+            android:id="@+id/Monday"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Monday"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <!-- Weather Icon -->
+        <ImageView
+            android:id="@+id/MondayImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/cloudy"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Partly Cloudy"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="25dp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="22 - 25°C"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables,UselessParent">
+        <TextView
+            android:id="@+id/Tuesday"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Tuesday"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <!-- Weather Icon -->
+        <ImageView
+            android:id="@+id/image_weather"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/rainy"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Rainy"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="25dp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="18 - 21°C"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables,UselessParent">
+        <TextView
+            android:id="@+id/Wednesday"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Wednesday"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <!-- Weather Icon -->
+        <ImageView
+            android:id="@+id/WednesdayImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sun"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Sunny"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="25dp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="28 - 29°C"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables,UselessParent">
+        <TextView
+            android:id="@+id/Thursday"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Thursday"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <!-- Weather Icon -->
+        <ImageView
+            android:id="@+id/ThursdayImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/cloudy"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Partly Cloudy"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="25dp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="22°C"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables,UselessParent">
+        <TextView
+            android:id="@+id/Friday"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Friday"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <!-- Weather Icon -->
+        <ImageView
+            android:id="@+id/FridayImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/cloudy"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Partly Cloudy"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="25dp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="22°C"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables,UselessParent">
+        <TextView
+            android:id="@+id/Saturday"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Saturday"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <!-- Weather Icon -->
+        <ImageView
+            android:id="@+id/SaturdayImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/rainy"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Rainy with a chance of death"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="25dp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="18 - 21°C"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal"
+        tools:ignore="UseCompoundDrawables,UselessParent">
+        <TextView
+            android:id="@+id/Sunday"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:text="Sunday"
+            android:textAlignment="center"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText" />
+
+        <!-- Weather Icon -->
+        <ImageView
+            android:id="@+id/SundayImage"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:src="@drawable/rainy"
+            tools:ignore="ContentDescription" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Partly Cloudy LOL"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                android:paddingTop="25dp"
+                tools:ignore="HardcodedText" />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="17 - 21°C"
+                android:layout_gravity="center"
+                android:paddingStart="10dp"
+                android:paddingEnd="0dp"
+                tools:ignore="HardcodedText" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
